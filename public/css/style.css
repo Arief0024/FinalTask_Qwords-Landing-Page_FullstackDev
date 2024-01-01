@@ -1,0 +1,96 @@
+#main-banner.isHome {
+    background-color: white;
+}
+:root {
+    --dynamic-span-value: 0; /* Nilai default jika span tidak ada atau kosong */
+}
+
+h1.main-heading {
+    font-weight: bold;
+}
+#search-domain {
+    background-color: #ff6d0b;
+}
+
+#search-domain {
+    background-size: cover;
+    min-height: 450px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-cta {
+    background-color: #ff6d0b;
+    font-weight: 700;
+    color: #fff;
+}
+.btn-outline-qw-primary {
+    background-color: transparent;
+    border: 1px solid #ff6d0b;
+    color: #ff6d0b;
+    font-weight: 700;
+}
+#produk-lain {
+    background-color: bisque;
+}
+#search-domain,
+#solution #company,
+#solution #dev,
+#solution #orgs {
+    background-color: #ff6d0b;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#solution .card .card-text p {
+    width: 60%;
+    line-height: 1.3em;
+    font-weight: 300;
+    font-size: clamp(14px, 1vw, 1.2rem);
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.container-fluid {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#bw-ads {
+    background-color: bisque;
+}
+
+#vhp-qna {
+    background-color: bisque;
+}
+
+.navbar-blur {
+    backdrop-filter: blur(1px);
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.8
+    ); /* Adjust the alpha value for transparency */
+    transition: background-color 0.3s, backdrop-filter 0.3s;
+}
+
+.navbar-blur .navbar-brand img {
+    filter: blur(0);
+    transition: filter 0.3s;
+}
+
+.navbar-blur .navbar-nav a {
+    color: #333; /* Change the text color when navbar is blurred */
+}

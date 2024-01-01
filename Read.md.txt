@@ -1,0 +1,8 @@
+Qwords x Rakamin Academy
+
+menggunakan laravel v.10 dan Bootstrap v.5
+- penginstalan bisa dilakukan dengan mendownload zip atau mengclone dari github
+- ketika sudah di download anda bisa membuka folder project ini di vs code atau teks editor lainnya
+- pastikan anda sudah menginstall nodejs, composer dan alat bantu yang lainnya
+- ketika sudah anda bisa membuka terminal dan mengetikan npm install, lalu ketikan juga php artisan serve
+guna untuk membuka serve local.
